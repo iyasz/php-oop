@@ -1,5 +1,7 @@
-<?php 
+<?php
 
-class kelasRpl {
-    
+class kelasRpl
+{
 }
+
+$a = new kelasRpl();
