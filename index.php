@@ -1,7 +1,8 @@
 <?php
 
-class kelasRpl
+class xirpl
 {
+    public $nama, $umur, $alamat;
 }
 
-$a = new kelasRpl();
+$nama = new xirpl();
