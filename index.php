@@ -15,8 +15,12 @@ $orang1->nama = "iyas";
 $orang1->umur = 16;
 $orang1->alamat = "isekai";
 
+$orang2 = new xirpl();
+$orang2->nama = "Jajan";
+$orang2->umur = 14;
+$orang2->alamat = "GRAND";
+
 echo "Nama ku : $orang1->nama <br> Umur : $orang1->umur ";
 echo "<br>";
-echo "Say hello : " . $orang1->sayHello();
 echo "<br>";
-echo $orang1->sayHello();
+echo "Nama ku : $orang2->nama <br> Umur : $orang2->umur ";
