@@ -2,7 +2,7 @@
 
 class xirpl
 {
-    public $nama, $umur, $alamat;
+    public $nama = "Ghil", $umur = 16, $alamat = "Citra Indah";
 
     public function sayHello()
     {
@@ -19,8 +19,9 @@ class xirpl
 
 $orang1 = new xirpl("iyasz", 16, "Kahuripan mas");
 $orang2 = new xirpl("ELaina", 17, "Kahuripan Mas");
+$orang3 = new xirpl( "", 17, "");
 
-var_dump($orang1);
+var_dump($orang3);
 
 // echo $orang1->sayHello();
 // echo "<br>";
