@@ -17,8 +17,19 @@ class xirpl
     }
 }
 
+class guru
+{
+    public $nama, $umur, $mapel;
+
+    public function infoGuru()
+    {
+    }
+}
+
 $orang1 = new xirpl("iyasz", 16, "Kahuripan mas");
 $orang2 = new xirpl("ELaina", 17, "Kahuripan Mas");
+
+$guru1 = new guru();
 
 var_dump($orang1);
 
