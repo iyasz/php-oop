@@ -39,10 +39,26 @@ class anime extends produk
         return $str;
     }
 }
+class game extends produk
+{
+    public function cetakInfo()
+    {
+        $str = "Game : {$this->judul} | {$this->pembuat}, {$this->penerbit} ~ {$this->waktuMain} Jam  ";
+        return $str;
+    }
+}
+class manga extends produk
+{
+    public function cetakInfo()
+    {
+        $str = "Manga : {$this->judul} | {$this->pembuat}, {$this->penerbit} ~ {$this->jmlHalaman} Lembar  ";
+        return $str;
+    }
+}
 
 $produk1 = new anime("Fairy Tail", "Kamasishi", "Studio Kyoto", 0, 0, 0, 140,);
-$produk2 = new produk("Mobile Legends", "iyasz", "Montoon", 0, 0, 120, 0);
-$produk3 = new produk("Chaisaw Man", "Suzuhime", "PT jaya abadi", number_format(50000), 250, 0, 0);
+$produk2 = new game("Mobile Legends", "iyasz", "Montoon", 0, 0, 120, 0);
+$produk3 = new manga("Chaisaw Man", "Suzuhime", "PT jaya abadi", number_format(50000), 250, 0, 0);
 
 echo $produk1->cetakInfo();
 echo "<br>";
