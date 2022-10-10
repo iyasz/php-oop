@@ -21,11 +21,11 @@ class produk
     {
         $str = "{$this->judul} | {$this->pembuat}, {$this->penerbit} ";
         if ($this->tipe == "Anime") {
-            $str .= "~ {$this->episode} - {$this->tipe}";
+            $str .= "~ {$this->episode} Episode - {$this->tipe} ";
         } elseif ($this->tipe == "Game") {
-            $str .= "~ {$this->waktuMain} - {$this->tipe}";
+            $str .= "~ {$this->waktuMain} Days - {$this->tipe} ";
         } elseif ($this->tipe == "Manga") {
-            $str .= "~Rp. {$this->harga} {$this->tipe}";
+            $str .= "~ Rp. {$this->harga} {$this->tipe}";
         }
         return $str;
     }
